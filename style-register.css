@@ -1,0 +1,31 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: grey;
+}
+
+.nav {
+  background-color: white;
+}
+
+.register {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items:center;
+  height: 50%;
+}
+
+.btn-primary {
+  background-color: #F58930;
+}
+
+.btn-primary:hover {
+  background-color: #FF7C10;
+}

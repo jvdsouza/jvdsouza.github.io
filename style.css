@@ -1,0 +1,45 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(header.jpg);
+  background-repeat: none;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.the-news {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100%
+}
+
+span {
+  color: white;
+  transition: all 1s;
+}
+
+span:hover {
+  transform: scale(1.1);
+}
+
+.btn-primary {
+  background-color: #F58930;
+}
+
+.btn-primary:hover {
+  background-color: #FF7C10;
+}
